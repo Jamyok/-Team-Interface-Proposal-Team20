@@ -1,0 +1,289 @@
+<!DOCTYPE html> 
+ 
+ 
+<html>
+
+<head>
+<title>Team Project: Interface Proposal</title>
+<link rel="stylesheet" href="style.css"><>
+</head>
+
+ <!–– Team Project: Interface Proposal -->
+ 
+<h1>UNFinished Business</h1>
+<hr>
+
+<h2>Application For Employment</h2>
+
+<form action="/action_page.php">
+<label for="date">Date</label>
+<input type="date" id="date" name="date"><br><br>
+</form>
+
+ <!–– Partially from w3 schools -->
+ 
+ <!–– Input of name's -->
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="mname">Middle name:</label>
+  <input type="text" id="mname" name="mname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<!–– Input of adress -->
+
+<form action="/action_page.php">
+  <label for="snumber">Street Number:</label>
+  <input type="text" id="snumber" name="snumber"><br><br>
+  <label for="sname">Street Name:</label>
+  <input type="text" id="sname" name="sname"><br><br>
+  <label for="city">City:</label>
+  <input type="text" id="city" name="city"><br><br>
+  <label for="state">State_2_Letters:</label>
+  <input type="text" id="state" name="state"><br><br>
+  <label for="zip">US_Zipcode:</label>
+  <input type="text" id="zip" name="zip"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<!–– Input of PhoneNumber -->
+
+<form action="/action_page.php">
+<label for="pnumber">Phone nuber:</label>
+<input type="number" id="pnumber" name="pnumber"><br><br>
+</form>
+
+<!–– Input of Email -->
+
+<form action="/action_page.php">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+</form>
+
+<!–– Input of age -->
+<!–– Under 18 returns 0, Above 18 returns 1 -->
+
+<form action="/action_page.php">
+<input type="radio" id="u_age" name="u_age" value="0">
+<label for="u_age">I am under 18:</label><br>
+<input type="radio" id="a_age" name="a_age" value="1">
+<label for="a_age">I am above 18:</label><br>
+</form>
+
+<!–– Input of position -->
+
+<form action="/action_page.php">
+<label for="position">Postion applied for:</label>
+  <input type="text" id="position" name="position"><br><br>
+  </form>
+  
+  <h2>PERSON TO BE NOTIFIED IN CASE OF EMERGENCY</h2>
+
+<!–– Input of name's for emergency -->
+
+<form action="/action_page.php">
+  <label for="efname">First name:</label>
+  <input type="text" id="efname" name="efname"><br><br>
+  <label for="emname">Middle name:</label>
+  <input type="text" id="emname" name="emname"><br><br>
+  <label for="elname">Last name:</label>
+  <input type="text" id="elname" name="elname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<!–– Input of adress for emergency -->
+
+<form action="/action_page.php">
+  <label for="esnumber">Street Number:</label>
+  <input type="text" id="esnumber" name="esnumber"><br><br>
+  <label for="esname">Street Name:</label>
+  <input type="text" id="esname" name="esname"><br><br>
+  <label for="ecity">City:</label>
+  <input type="text" id="ecity" name="ecity"><br><br>
+  <label for="estate">State_2_Letters:</label>
+  <input type="text" id="estate" name="estate"><br><br>
+  <label for="ezip">US_Zipcode:</label>
+  <input type="text" id="ezip" name="ezip"><br><br>
+  <label for="erelationship">Relationship:</label>
+  <input type="text" id="relationship" name="erelationship"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>MEDICAL HISTORY</h2>
+
+<!–– how to make dynamic input boxes -->
+
+<p>Please let us know any relevant medical history for the applied job postion.</p>
+
+
+<!-- MISCELLANEOUS -->
+<!-- Combine all -->
+
+<form action="/action_page.php">
+<label> for="availablity">Days available to work:</label>
+<input type="number" id="availablity" name="availablity"><br><br>
+<label> for="hours">Amount of desired weekly hours:</label>
+<input type="number" id="hours" name="hours"><br><br>
+<input type="radio" id="full" name="full" value="2">
+<label for="full">Full-time:</label><br>
+<input type="radio" id="part" name="part" value="3">
+<label for="part">Part-time:</label><br>
+<input type="radio" id="night" name="night" value="4">
+<label for="night">Nights:</label><br>
+<input type="days" id="days" name="days" value="5">
+<label for="days">Days:</label><br>
+<label for="startDate">Prefered start date:</label>
+<input type="date" id="startDate" name="startDate">
+<input type="radio" id="relaible" name="reliable" value="6">
+<label for="reliable">Yes, I <b>do</b> have a relaible vehicle:</label><br>
+<input type="radio" id="unreliable" name="unreliable" value="7">
+<label for="unreliable">I <b>do not</b> have a relaible vehicle:</label><br>
+<label> for="myears">If you have any Military service please provide how much:</label>
+<input type="number" id="myears" name="myears"><br><br>
+</form>
+
+<!-- Criminal background -->
+
+<h2>CRIMINAL BACKGROUND</h2>
+
+Have you been convicted of any crime related to the job
+
+<!-- REFERENCES --> 
+
+<!-- dynamic --> 
+
+<h2>REFERENCES</h2>
+
+Please submit atleast one reference.
+
+Name:
+title:
+Company:
+Adress:
+Telephone:
+Email:
+
+<!-- Educations --> 
+
+<h2>Education</h2>
+
+School Name
+
+School Type
+
+name of degree
+
+city/state
+
+grad date
+
+LIST ANY ADDITIONAL DIPLOMAS, DEGREES, 
+CERTIFICATIONS AND OTHER MISCELLANEOUS TRAINING EARNED.
+
+<!-- WORK EXPERIENCE -->
+<!-- Dynamic -->
+
+
+<h2>Work Experience</h2>
+
+Employer Name
+Name of last supervisor
+Job title
+Employment date
+Adress:City, State, Zip
+Phone number
+email adress
+LIST DUTIES PERFORMED, SKILLS USED, 
+AND ADVANCEMENTS AND PROMOTIONS EARNED
+Reason for leaving
+MAY WE CONTACT THIS EMPLOYER?
+
+<!-- Legal -->
+<!-- 8th grade level-->
+
+<hr>
+<h2><b>PLEASE READ CAREFULLY AND SIGN<b></h2>
+<hr>
+
+<hr>
+<h2><b>APPLICATION ACKNOWLEDGEMENT AND WAIVER</b></h2>
+<hr>
+
+
+
+<b>
+
+<p>
+IN EXCHANGE FOR THE CONSIDERATION OF MY JOB APPLICATION BY UNFINISHED BUSINESS, I AGREE THAT:
+</p>
+
+<p>
+NEITHER THE ACCEPTANCE OF THIS APPLICATION NOR THE SUBSEQUENT ENTRY INTO ANY TYPE OF EMPLOYMENT
+RELATIONSHIP, EITHER IN THE POSITION APPLIED FOR OR ANY OTHER POSITION, AND REGARDLESS OF THE CONTENTS
+OF EMPLOYEE HANDBOOKS, PERSONNEL MANUALS, BENEFIT PLANS, POLICY STATEMENTS, AND THE LIKE AS THEY MAY
+EXIST FROM TIME TO TIME, OR OTHER UNFINISHED BUSINESS PRACTICES, SHALL SERVE TO CREATE AN ACTUAL OR
+IMPLIED CONTRACT OF EMPLOYMENT, OR TO CONFER ANY RIGHT TO REMAIN AN EMPLOYEE OF UNFINISHED BUSINESS,
+OR OTHERWISE TO CHANGE IN ANY RESPECT THE EMPLOYMENT-AT-WILL RELATIONSHIP BETWEEN IT AND THE
+UNDERSIGNED, AND THAT RELATIONSHIP CANNOT BE ALTERED EXCEPT BY A WRITTEN INSTRUMENT SIGNED BY THE
+PRESIDENT /GENERAL MANAGER OF UNFINISHED BUSINESS. BOTH THE UNDERSIGNED AND UNFINISHED BUSINESS MAY
+END THE EMPLOYMENT RELATIONSHIP AT ANY TIME, WITHOUT SPECIFIED NOTICE OR REASON. IF EMPLOYED, I
+UNDERSTAND THAT UNFINISHED BUSINESS MAY UNILATERALLY CHANGE OR REVISE THEIR BENEFITS, POLICIES AND
+PROCEDURES AND SUCH CHANGES MAY INCLUDE REDUCTION IN BENEFITS.
+</p>
+
+<p>
+I AUTHORIZE INVESTIGATION OF ALL STATEMENTS CONTAINED IN THIS APPLICATION. I UNDERSTAND THAT THE
+MISREPRESENTATION OR OMISSION OF FACTS CALLED FOR IS CAUSE FOR DISMISSAL AT ANY TIME WITHOUT ANY
+PREVIOUS NOTICE. I HEREBY GIVE UNFINISHED BUSINESS PERMISSION TO CONTACT SCHOOLS, PREVIOUS EMPLOYERS
+(UNLESS OTHERWISE INDICATED), REFERENCES, AND OTHERS, AND HEREBY RELEASE UNFINISHED BUSINESS FROM ANY
+LIABILITY AS A RESULT OF SUCH CONTRACT.
+</p>
+
+<p>
+I ALSO UNDERSTAND THAT (1) UNFINISHED BUSINESS HAS A DRUG AND ALCOHOL POLICY THAT PROVIDES FOR PRE-
+EMPLOYMENT TESTING AS WELL AS TESTING AFTER EMPLOYMENT; (2) CONSENT TO AND COMPLIANCE WITH SUCH
+POLICY IS A CONDITION OF MY EMPLOYMENT; AND (3) CONTINUED EMPLOYMENT IS BASED ON THE SUCCESSFUL
+PASSING OF TESTING UNDER SUCH POLICY. I FURTHER UNDERSTAND THAT CONTINUED EMPLOYMENT MAY BE BASED
+ON THE SUCCESSFUL PASSING OF JOB-RELATED PHYSICAL EXAMINATIONS.
+</p>
+
+<p>
+I UNDERSTAND THAT, IN CONNECTION WITH THE ROUTINE PROCESSING OF MY EMPLOYMENT APPLICATION,
+UNFINISHED BUSINESS MAY REQUEST FROM A CONSUMER REPORTING AGENCY AN INVESTIGATIVE CONSUMER REPORT
+INCLUDING INFORMATION AS TO MY CREDIT RECORDS, CHARACTER, GENERAL REPUTATION, PERSONAL
+CHARACTERISTICS, AND MODE OF LIVING. UPON WRITTEN REQUEST FROM ME, UNFINISHED BUSINESS WILL PROVIDE
+ME WITH ADDITIONAL INFORMATION CONCERNING THE NATURE AND SCOPE OF ANY SUCH REPORT REQUESTED BY IT,
+AS REQUIRED BY THE FAIR CREDIT REPORTING ACT.
+</p>
+
+<p>
+FURTHER UNDERSTAND THAT MY EMPLOYMENT WITH UNFINISHED BUSINESS SHALL BE PROBATIONARY FOR A PERIOD
+OF SIXTY (60) DAYS, AND FURTHER THAT AT ANY TIME DURING THE PROBATIONARY PERIOD OR THEREAFTER, MY
+EMPLOYMENT RELATION WITH UNFINISHED BUSINESS IS TERMINABLE AT WILL FOR ANY REASON BY EITHER PARTY.
+</p>
+
+
+<p>
+SIGNATURE OF APPLICANT
+</p>
+
+<p>
+<label for="signDate">Date:</label>
+<input type="date" id="signDate" name="signDate">
+</p>
+
+<p>
+UNFINISHED BUSINESS IS AN EQUAL EMPLOYMENT OPPORTUNITY EMPLOYER.
+</p>
+
+<p>
+THANK YOU FOR COMPLETING THIS APPLICATION FORM AND FOR YOUR INTEREST IN UNFINISHED BUSINESS.
+</p>
+
+</b>
+
+</html>
