@@ -5,7 +5,7 @@
 
 <head>
 <title>Team Project: Interface Proposal</title>
-<link rel="stylesheet" href="style.css"><>
+<link rel="stylesheet" href="style.css">
 </head>
 
  <!–– Team Project: Interface Proposal -->
@@ -33,6 +33,7 @@
   <input type="text" id="lname" name="lname"><br><br>
   <input type="submit" value="Submit">
 </form>
+<br />
 
 <!–– Input of adress -->
 
@@ -49,44 +50,36 @@
   <input type="text" id="zip" name="zip"><br><br>
   <input type="submit" value="Submit">
 </form>
+<br />
 
 <!–– Input of PhoneNumber -->
 
 <form action="/action_page.php">
 <label for="pnumber">Phone nuber:</label>
 <input type="number" id="pnumber" name="pnumber"><br><br>
-</form>
-
 <!–– Input of Email -->
-
-<form action="/action_page.php">
 <label for="email">Email:</label>
 <input type="email" id="email" name="email"><br><br>
-</form>
-
 <!–– Input of age -->
 <!–– Under 18 returns 0, Above 18 returns 1 -->
-
-<form action="/action_page.php">
 <input type="radio" id="u_age" name="u_age" value="0">
 <label for="u_age">I am under 18:</label><br>
 <input type="radio" id="a_age" name="a_age" value="1">
 <label for="a_age">I am above 18:</label><br>
-</form>
-
+<br />
 <!–– Input of position -->
-
-<form action="/action_page.php">
 <label for="position">Postion applied for:</label>
-  <input type="text" id="position" name="position"><br><br>
+  <input type="text" id="position" name="position"><br>
+  <input type="submit" value="Submit"><br>
   </form>
-  
+  <br />
+
   <h2>PERSON TO BE NOTIFIED IN CASE OF EMERGENCY</h2>
 
 <!–– Input of name's for emergency -->
 
 <form action="/action_page.php">
-  <label for="efname">First name:</label>
+  <label for="efname">First name:</label><br />
   <input type="text" id="efname" name="efname"><br><br>
   <label for="emname">Middle name:</label>
   <input type="text" id="emname" name="emname"><br><br>
@@ -94,6 +87,7 @@
   <input type="text" id="elname" name="elname"><br><br>
   <input type="submit" value="Submit">
 </form>
+<br />
 
 <!–– Input of adress for emergency -->
 
@@ -112,6 +106,7 @@
   <input type="text" id="relationship" name="erelationship"><br><br>
   <input type="submit" value="Submit">
 </form>
+<br />
 
 <h2>MEDICAL HISTORY</h2>
 
@@ -122,11 +117,11 @@
 
 <!-- MISCELLANEOUS -->
 <!-- Combine all -->
-
+<h2>MISCELLANEOUS</h2>
 <form action="/action_page.php">
-<label> for="availablity">Days available to work:</label>
+<label for="availablity">Days available to work:</label>
 <input type="number" id="availablity" name="availablity"><br><br>
-<label> for="hours">Amount of desired weekly hours:</label>
+<label for="hours">Amount of desired weekly hours:</label>
 <input type="number" id="hours" name="hours"><br><br>
 <input type="radio" id="full" name="full" value="2">
 <label for="full">Full-time:</label><br>
@@ -137,27 +132,31 @@
 <input type="days" id="days" name="days" value="5">
 <label for="days">Days:</label><br>
 <label for="startDate">Prefered start date:</label>
-<input type="date" id="startDate" name="startDate">
+<input type="date" id="startDate" name="startDate"><br />
 <input type="radio" id="relaible" name="reliable" value="6">
 <label for="reliable">Yes, I <b>do</b> have a relaible vehicle:</label><br>
 <input type="radio" id="unreliable" name="unreliable" value="7">
 <label for="unreliable">I <b>do not</b> have a relaible vehicle:</label><br>
-<label> for="myears">If you have any Military service please provide how much:</label>
+<label for="myears">If you have any Military service please provide how much:</label>
 <input type="number" id="myears" name="myears"><br><br>
+<input type="submit" value="Submit">
 </form>
+<br />
 
 <!-- Criminal background -->
 
 <h2>CRIMINAL BACKGROUND</h2>
 
+<p>
 Have you been convicted of any crime related to the job
-
+</p>
 <!-- REFERENCES --> 
 
 <!-- dynamic --> 
 
 <h2>REFERENCES</h2>
 
+<p>
 Please submit atleast one reference.
 
 Name:
@@ -166,11 +165,12 @@ Company:
 Adress:
 Telephone:
 Email:
-
+</p>
 <!-- Educations --> 
 
 <h2>Education</h2>
 
+<p>
 School Name
 
 School Type
@@ -183,13 +183,14 @@ grad date
 
 LIST ANY ADDITIONAL DIPLOMAS, DEGREES, 
 CERTIFICATIONS AND OTHER MISCELLANEOUS TRAINING EARNED.
-
+</p>
 <!-- WORK EXPERIENCE -->
 <!-- Dynamic -->
 
 
 <h2>Work Experience</h2>
 
+<p>
 Employer Name
 Name of last supervisor
 Job title
@@ -201,6 +202,7 @@ LIST DUTIES PERFORMED, SKILLS USED,
 AND ADVANCEMENTS AND PROMOTIONS EARNED
 Reason for leaving
 MAY WE CONTACT THIS EMPLOYER?
+</p>
 
 <!-- Legal -->
 <!-- 8th grade level-->
@@ -268,7 +270,11 @@ EMPLOYMENT RELATION WITH UNFINISHED BUSINESS IS TERMINABLE AT WILL FOR ANY REASO
 
 
 <p>
-SIGNATURE OF APPLICANT
+<form action="/action_page.php">
+  <input type="text" id="signature" name="signature" value="0">
+  <label for="signature">SIGNATURE OF APPLICANT:</label><br>
+  <input type="submit" value="Submit">
+  </form>
 </p>
 
 <p>

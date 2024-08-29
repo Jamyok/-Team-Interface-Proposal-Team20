@@ -1,15 +1,5 @@
-body{
-background-color: black;
-
-}
-
-h1{
-color: white;
-
-}
-
-p{
-color: white;
-font-family: "consolas", "Inter", sans-serif;
-
+body {
+  background-color: Canvas;
+  color: CanvasText;
+  color-scheme: light dark;
 }
